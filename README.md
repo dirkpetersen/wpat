@@ -1,7 +1,5 @@
 
- please write a modern R script with command line arguments that reviews work patterns of different user types from early riser to night owl based on file system metadata stored in a CSV file please example below implement this with textual visualization only, no plots 
-
- 
+Please write a modern R script with command line arguments that reviews work patterns of different user types from early riser to night owl based on file system metadata stored in a csv file (example below). Only use external libraries argparse, lubridate, data.table Implement this with textual visualization only, no plots
 
  head ~/gh/labdata.csv
 inode,parent-inode,directory-depth,"filename","fileExtension",UID,GID,st_size,st_dev,st_blocks,st_nlink,"st_mode",st_atime,st_mtime,st_ctime,pw_fcount,pw_dirsum
